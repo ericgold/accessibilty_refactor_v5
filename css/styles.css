@@ -65,7 +65,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -84,11 +84,15 @@ header {
 
 header .name{
   font-size: 3em;
+  text-transform: uppercase;
+  color: #f9d2da;
+
 }
+
 .tagline {
   font-weight: 600;
   padding: 20px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #f9d2da; /* original #781125 */
 }
 
