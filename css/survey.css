@@ -14,11 +14,30 @@ form {
 .container{
   text-align: center;
 }
-.newsletter{
-  text-align: right;
 
+.newsletter{
+  margin: auto;
 }
 
+.newsletter legend {
+  display: none;
+}
+
+.signup {
+  border: none;
+}
+
+.fav-members,
+.fav-album,
+.fav-song,
+{
+  border: none;
+  margin: auto 0;
+}
+
+.survey {
+  margin: auto 0;
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {

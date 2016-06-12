@@ -57,10 +57,12 @@ a:hover {
 
 .nav a {
   transition: all .5s;
+  color: #dfece8;
+  text-decoration: underline;
 }
 
 .nav a:hover {
-  color: white
+  color: white;
 }
 
 header {
@@ -83,17 +85,20 @@ header {
 }
 
 header .name{
-  font-size: 3em;
+  font-size: 4em;
+  font-weight: 600;
   text-transform: uppercase;
-  color: #f9d2da;
-
+  color: rgb(45, 43, 48);
+  margin: 1.5em 0 0.5em 0;
+  
 }
 
 .tagline {
   font-weight: 600;
   padding: 20px;
   /*text-transform: uppercase;*/
-  color: #f9d2da; /* original #781125 */
+  color: #781125;
+ 
 }
 
 .card {
