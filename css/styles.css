@@ -55,12 +55,14 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
+.nav a,
+a.buy {
   transition: all .5s;
   text-decoration: underline;
 }
 
-.nav a:hover {
+.nav a:hover,
+a.buy:hover {
   color: white;
 }
 
@@ -163,7 +165,7 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  /*opacity: .4;*/
   transition: all .5s;
 }
 
@@ -172,9 +174,7 @@ a.social img {
   height: 32px;
 }
 
-a.social:hover {
-  opacity: 1;
-}
+
 .clearfix {
   clear: both;
 }

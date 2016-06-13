@@ -15,10 +15,17 @@ form {
   text-align: center;
 }
 
+.favorites {
+  border: none;
+  margin: auto 0;
+}
+
+
 .newsletter{
   margin: auto;
 }
 
+.favorites legend, 
 .newsletter legend {
   display: none;
 }
@@ -27,12 +34,7 @@ form {
   border: none;
 }
 
-.fav-members,
-.fav-album,
-.fav-song {
-  border: none;
-  margin: auto 0;
-}
+
 
 .survey {
   margin: auto 0;
