@@ -17,7 +17,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #dfece8;
 }
 
 a:hover {
@@ -57,7 +57,6 @@ a:hover {
 
 .nav a {
   transition: all .5s;
-  color: #dfece8;
   text-decoration: underline;
 }
 
@@ -108,6 +107,7 @@ header .name{
   border-top: 4px solid #f9d2da;
   clear: both;
 }
+
 .card:hover {
   border-color: #96731A;
 }
