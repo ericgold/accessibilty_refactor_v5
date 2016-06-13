@@ -87,7 +87,7 @@ header .name{
   font-size: 4em;
   font-weight: 600;
   text-transform: uppercase;
-  color: rgb(45, 43, 48);
+  color: #dfece8;
   margin: 1.5em 0 0.5em 0;
   
 }
@@ -96,7 +96,7 @@ header .name{
   font-weight: 600;
   padding: 20px;
   /*text-transform: uppercase;*/
-  color: #781125;
+  color: #f9d2da;
  
 }
 
@@ -113,21 +113,21 @@ header .name{
 }
 
 
-.photo{
+.photo {
   display: block;
   width: 200px;
   height: 0%;
   margin: 0 auto;
 }
 
-.information{
+.information {
   width: 100%;
   text-align: center;
   /*display: inline-block;
   position: absolute;*/
 }
 
-.heading{
+.heading {
   font-size: 2em;
   text-transform: uppercase;
   color: #f9d2da;
@@ -167,16 +167,9 @@ a.social {
   transition: all .5s;
 }
 
-a.twitter {
-  background-image: url(../img/twitter-32.png);
-}
-
-a.youtube {
-  background-image: url(../img/youtube-32.png);
-}
-
-a.spotify {
-  background-image: url(../img/spotify-32.png);
+a.social img {
+  width: 32px;
+  height: 32px;
 }
 
 a.social:hover {
