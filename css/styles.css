@@ -57,13 +57,21 @@ a:hover {
 
 .nav a,
 a.buy {
-  transition: all .5s;
   text-decoration: underline;
+  outline: none;
 }
 
 .nav a:hover,
 a.buy:hover {
-  color: white;
+  background-color: white;
+  color: #ed7890;
+  border-radius: 2px;
+}
+
+.nav a:focus,
+a.buy:focus {
+  border: 2px solid #ed7890;
+  border-radius: 2px;
 }
 
 header {
@@ -149,6 +157,7 @@ footer .copyright {
   font-size: .75em;
 }
 
+
 footer ul {
   list-style-type: none;
   margin: 0;
@@ -167,11 +176,22 @@ a.social {
   background-size: 30px 30px;
   /*opacity: .4;*/
   transition: all .5s;
+  outline: none;
+}
+
+a.social:hover {
+  background-color: #ed7890;
+  border-radius: 2px;
+}
+
+a.social:focus {
+  border: 2px solid #ed7890;
+  border-radius: 2px;
 }
 
 a.social img {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
 }
 
 
