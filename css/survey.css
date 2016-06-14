@@ -12,7 +12,11 @@ form {
 }
 
 .container{
-  text-align: center;
+  text-align: left;
+}
+
+.survey {
+  margin: auto 0;
 }
 
 .favorites {
@@ -21,9 +25,39 @@ form {
 }
 
 
-.newsletter{
-  margin: auto;
+.favorites p,
+#albums,
+label[for="albums"],
+label[for="fav-song-text"] {
+  display: block;
 }
+
+.favorites p {
+  margin-bottom: 0.5em;
+}
+
+label[for="albums"],
+label[for="fav-song-text"] {
+  margin: 0.5em 0;
+}
+
+.newsletter label,
+.newsletter input {
+  display: inline-block;
+}
+
+.newsletter label {
+  width: 25%;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.newsletter input {
+  width: 30%;
+  margin-right: 20%;
+}
+
+
 
 .favorites legend, 
 .newsletter legend {
@@ -34,11 +68,15 @@ form {
   border: none;
 }
 
-
-
-.survey {
-  margin: auto 0;
+#signup-button {
+  display: block;
+  margin-left: auto;
+  margin-right: 20%;
 }
+
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
