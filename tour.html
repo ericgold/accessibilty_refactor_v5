@@ -10,21 +10,21 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
-        <li class="name"><a href="index.html">Accessible Frog</a></li>
-        <li><a href="#">Tour</a></li>
-        <li><a href="survey.html">Survey</a></li>
+        <li class="name"><a href="index.html" role="link">Accessible Frog</a></li>
+        <li><a href="#" role="link">Tour</a></li>
+        <li><a href="survey.html" role="link">Survey</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <header>
+    <header role="banner">
       <h1 class="name">Accessible Frog</h1>
       <h2 class="tagline">we make awesome music</h2>
     </header>
 
-    <main >
-      <div class="card">
+    <main role="main">
+      <div class="card" role="article">
         <div class="flex">  
           <img class="pick" src="img/guitar_pick.png" alt="">
           <h1 class="heading">Tour Dates</h1>
@@ -60,24 +60,24 @@
     </main>
     
     <footer>
-      <ul>
+      <ul role="navigation">
         <li>
-          <a href="#" class="social twitter">
+          <a href="#" class="social twitter" role="link">
             <img src="img/twitter-32.png" alt="Twitter icon">
           </a>
         </li>
         <li>
-          <a href="#" class="social youtube">
+          <a href="#" class="social youtube" role="link">
             <img src="img/youtube-32.png" alt="Youtube icon">
           </a>
         </li>
         <li>
-          <a href="#" class="social spotify">
+          <a href="#" class="social spotify" role="link">
             <img src="img/spotify-32.png" alt="Spotify icon">
           </a>
         </li>
       </ul>
-      <p class="copyright">Copyright 2015, Accessible Frog</p>
+      <p class="copyright" role="contentinfo">Copyright 2015, Accessible Frog</p>
     </footer>
   </body>
 </html>

@@ -10,26 +10,26 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
-        <li class="name"><a href="index.html">Accessible Frog</a></li>
-        <li><a href="tour.html">Tour</a></li>
-        <li><a href="#">Survey</a></li>
+        <li class="name"><a href="index.html" role="link">Accessible Frog</a></li>
+        <li><a href="tour.html" role="link">Tour</a></li>
+        <li><a href="#" role="link">Survey</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <header>
+    <header role="banner">
       <h1 class="name">Accessible Frog</h1>
       <h2 class="tagline">we make awesome music</h2>
     </header>
 
-    <main>
+    <main role="main">
       <h1 class= "heading">Survey</h1>
-      <div class="card">
+      <div class="card" role="article">
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="Photo of an Accessible Frog show taken from the crowd.">
           <div class="container">
-            <form class="survey" action="" method="">
+            <form class="survey" role="form" action="" method="">
               <fieldset class="favorites">
                 <legend>Survey</legend>
                 <p>Who is your favorite band member: </p>
@@ -65,11 +65,11 @@
         </div>
       </div>
       <h1 class= "heading">Newsletter</h1>
-      <div class="card">
+      <div class="card" role="article">
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="Photo of Accessible Frog drummer, Sally, and guitarist, Hazzard">
             <div class="container">
-              <form class="newsletter" action="" method="">
+              <form class="newsletter" role="form" action="" method="">
                 <fieldset class="signup">
                   <legend>Sign Up</legend>
                   <label for="name">Name: </label>
@@ -87,24 +87,24 @@
     </main>
 
     <footer>
-      <ul>
+      <ul role="navigation">
         <li>
-          <a href="#" class="social twitter">
+          <a href="#" class="social twitter" role="link">
             <img src="img/twitter-32.png" alt="Twitter icon">
           </a>
         </li>
         <li>
-          <a href="#" class="social youtube">
+          <a href="#" class="social youtube" role="link">
             <img src="img/youtube-32.png" alt="Youtube icon">
           </a>
         </li>
         <li>
-          <a href="#" class="social spotify">
+          <a href="#" class="social spotify" role="link">
             <img src="img/spotify-32.png" alt="Spotify icon">
           </a>
         </li>
       </ul>
-      <p class="copyright">Copyright 2015, Accessible Frog</p>
+      <p class="copyright" role="contentinfo">Copyright 2015, Accessible Frog</p>
     </footer>
   </body>
 </html>

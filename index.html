@@ -9,21 +9,21 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
-        <li class="name"><a href="#">Accessible Frog</a></li>
-        <li><a href="tour.html">Tour</a></li>
-        <li><a href="survey.html">Survey</a></li>
+        <li class="name"><a href="#" role="link">Accessible Frog</a></li>
+        <li><a href="tour.html" role="link">Tour</a></li>
+        <li><a href="survey.html" role="link">Survey</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <header>
+    <header role="banner">
       <h1 class="name">Accessible Frog</h1>
       <h2 class="tagline">we make awesome music</h2>
     </header>
 
-    <main>
-      <div class="card">
+    <main role="main">
+      <div class="card" role="article">
         <div class="flex">
           <img class="photo" src= "img/soul_of_the_frog.jpg" alt="Soul of the Frog album cover featuring a frog in the mud">
           <div class="information">
@@ -35,7 +35,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card" role="article">
         <div class="flex">
           <img class="photo" src= "img/lead_singer.jpg" alt="photo of John, the lead singer of Accessible Frog">
           <div class="information">
@@ -47,24 +47,24 @@
     </main>
 
     <footer>
-      <ul>
+      <ul role="navigation">
         <li>
-          <a href="#" class="social twitter">
+          <a href="#" class="social twitter" role="link">
             <img src="img/twitter-32.png" alt="Twitter icon">
           </a>
         </li>
         <li>
-          <a href="#" class="social youtube">
+          <a href="#" class="social youtube" role="link">
             <img src="img/youtube-32.png" alt="Youtube icon">
           </a>
         </li>
         <li>
-          <a href="#" class="social spotify">
+          <a href="#" class="social spotify" role="link">
             <img src="img/spotify-32.png" alt="Spotify icon">
           </a>
         </li>
-      </ul>
-      <p class="copyright">Copyright 2015, Accessible Frog</p>
+      </ul> 
+      <p class="copyright" role="contentinfo">Copyright 2015, Accessible Frog</p>
     </footer>
 
   </body>
