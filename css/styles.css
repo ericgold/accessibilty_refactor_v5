@@ -95,7 +95,7 @@ header {
 header .name{
   font-size: 4em;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: uppercase;    
   color: #dfece8;
   margin: 1.5em 0 0.5em 0;
   
@@ -118,7 +118,7 @@ header .name{
 }
 
 .card:hover {
-  border-color: #96731A;
+  border: 4px solid #f9d2da;
 }
 
 
@@ -165,11 +165,14 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
 }
 
 a.social {
   display: inline-block;
-  margin-left: 5px;
+  
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
@@ -188,6 +191,7 @@ a.social:focus {
 }
 
 a.social img {
+  margin: auto;
   width: 30px;
   height: 30px;
 }

@@ -36,6 +36,21 @@ label[for="fav-song-text"] {
   margin-bottom: 0.5em;
 }
 
+.favorites select,
+.favorites textarea {
+  outline: none;
+}
+
+.favorites select:focus,
+.favorites textarea:focus {
+  border: 3px solid #f9d2da;
+  border-radius: 2px;
+}
+
+input[type="radio"]:checked + label {
+  color: #f9d2da;
+} 
+
 label[for="albums"],
 label[for="fav-song-text"] {
   margin: 0.5em 0;
@@ -56,6 +71,12 @@ label[for="fav-song-text"] {
   width: 30%;
   margin-right: 20%;
   margin-top: 1.5em;
+  outline: none;
+}
+
+.newsletter input:focus {
+  border: 3px solid #f9d2da;
+  border-radius: 2px;
 }
 
 .favorites legend, 
@@ -72,6 +93,15 @@ label[for="fav-song-text"] {
   margin-left: auto;
   margin-right: 39%;
   margin-top: 1.5em;
+  outline: none;
+  background-color: white;
+  border-radius: 3px;
+  color: #ed7890;
+}
+
+#signup-button:focus {
+  border: 3px solid #f9d2da;
+  border-radius: 2px; 
 }
 
 /* Styles for aria hints */
