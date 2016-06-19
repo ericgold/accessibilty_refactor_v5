@@ -69,7 +69,7 @@ a.buy:hover {
 
 .nav a:focus,
 a.buy:focus {
-  border: 2px solid #ed7890;
+  border: 2px solid #f9d2da;
   border-radius: 2px;
 }
 
@@ -111,7 +111,7 @@ header .name{
 
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 20px;
   text-align: left;
   border-top: 4px solid #f9d2da;
   clear: both;
@@ -186,7 +186,7 @@ a.social:hover {
 }
 
 a.social:focus {
-  border: 2px solid #ed7890;
+  border: 2px solid #f9d2da;
   border-radius: 2px;
 }
 
@@ -209,6 +209,7 @@ a.social img {
     display: flex;
     max-width: 1200px;
     -ms-flex-pack: distribute;
+    padding: 0;
   }
 
   header {
@@ -231,14 +232,15 @@ a.social img {
 
   .card{
     margin: 40px auto;
-    padding: 20px 40px 40px;
+    padding: 20px;
     width: 80%;
     max-width: 1000px;
+    
   }
 
   .photo{
-    width: 30%;
-    margin: 20px 30px;
+    width: 40%;
+    margin: 20px;
   }
 
   .information{
