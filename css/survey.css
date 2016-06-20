@@ -1,9 +1,11 @@
 /* Survey page styles */
 
+/*
 .photo{
   width: 60%;
   padding: 10px;
 }
+*/
 
 form {
   margin: 0 auto;
@@ -110,21 +112,28 @@ label[for="fav-song-text"] {
 
 /* Styles for aria hints */
 
-#signup-info,
-#favs-info
- {
+
+#favs-info {
   font-size: 0.75em;
   line-height: 1.2em;
-  text-align: center;
+  text-align: left;
+}
+
+#signup-info {
+  font-size: 0.75em;
+  line-height: 1.2em;
+  text-align: right;
+  margin-right: 13%;
 }
 
 
 
 
 
-/* Styles for larger screens */
+/* Styles for larger screens 
 @media screen and (min-width: 840px) {
   .photo{
     width: 40%;
   }
 }
+*/

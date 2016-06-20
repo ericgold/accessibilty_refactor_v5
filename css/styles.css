@@ -122,10 +122,13 @@ header .name{
 }
 
 
-.photo {
+.photo,
+.photo-album-cover {
   display: block;
-  width: 200px;
-  height: 0%;
+  width: 100%;
+  
+  max-width: 200px;
+  max-height: 200px;
   margin: 0 auto;
 }
 
@@ -238,12 +241,23 @@ a.social img {
     
   }
 
-  .photo{
+  .photo,
+  .photo-album-cover {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .photo {
+    margin-right: 40px;
+  }
+
+  .photo-container {
     width: 40%;
-    margin: 20px;
+    margin-top: 20px;
   }
 
   .information{
+    width: 60%;
     text-align: left;
   }
 
