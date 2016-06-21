@@ -93,7 +93,7 @@ header {
 }
 
 header .name{
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 600;
   text-transform: uppercase;    
   color: #dfece8;
@@ -102,11 +102,10 @@ header .name{
 }
 
 .tagline {
+  font-size: 1.2em;
   font-weight: 600;
   padding: 20px;
-  /*text-transform: uppercase;*/
   color: #f9d2da;
- 
 }
 
 .card {
@@ -205,6 +204,18 @@ a.social img {
 }
 
 /* Styles for larger screens */
+
+@media screen and (min-width: 600px) {
+  header .name {
+    font-size: 3em;
+  }
+
+  .tagline {
+    font-size: 1.3em;
+  }
+
+}
+
 @media screen and (min-width: 840px) {
 
   .flex {
@@ -217,6 +228,14 @@ a.social img {
 
   header {
     min-height: 470px;
+  }
+
+  header .name {
+    font-size: 4em;
+  }
+
+  .tagline {
+    font-size: 1.5em;
   }
 
   .nav {
@@ -253,7 +272,8 @@ a.social img {
 
   .photo-container {
     width: 40%;
-    margin-top: 20px;
+    margin-top: 1.4em;
+    margin-right: 2em;
   }
 
   .information{

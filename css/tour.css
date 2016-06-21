@@ -3,10 +3,11 @@
 table {
   font-family: 'Open Sans', sans-serif;
   margin: auto;
+  font-size: 0.75em;
 }
 
 th, td {
-	padding-right: 3em;
+	padding-right: 0.25em;
 }
 
 .heading{
@@ -28,5 +29,15 @@ th, td {
 #tour-heading {
 	text-align: center;
 	padding: 0;
+}
+
+@media screen and (min-width: 600px) {
+  table {
+    font-size: 1em;
+  }
+
+  th, td {
+    padding-right: 3em;
+  }
 }
 
