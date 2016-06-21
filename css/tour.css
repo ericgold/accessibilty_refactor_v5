@@ -2,7 +2,7 @@
 
 table {
   font-family: 'Open Sans', sans-serif;
-  margin-left: auto;
+  margin: auto;
 }
 
 th, td {
@@ -23,5 +23,10 @@ th, td {
 
 #tour-dates {
 	display: none;
+}
+
+#tour-heading {
+	text-align: center;
+	padding: 0;
 }
 

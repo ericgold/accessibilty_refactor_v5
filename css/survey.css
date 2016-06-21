@@ -44,6 +44,10 @@ label[for="fav-song-text"] {
   outline: none;
 }
 
+.favorites textarea {
+  height: 3em;
+}
+
 .favorites select:focus,
 .favorites textarea:focus {
   border: 3px solid #f9d2da;
@@ -72,6 +76,7 @@ label[for="fav-song-text"] {
 
 .newsletter input {
   width: 45%;
+  height: 1.75em;
   margin-right: 4%;
   margin-top: 1.5em;
   outline: none;
@@ -94,7 +99,8 @@ label[for="fav-song-text"] {
 
 #signup-button {
   display: block;
-  width:30%;
+  width: 30%;
+  height: 2em;
   margin-left: auto;
   margin-right: 13%;
   margin-top: 1.5em;
